@@ -1,0 +1,24 @@
+1. 다음 중 빈칸에 들어갈 제일 알맞은 명령어는?
+#include <stdio.h>
+
+struct Person{
+	char name[50];
+	int age;
+};
+
+int main(){
+	struct Person people = {"Moon", 25};
+	
+	struct Person* p;
+	p = &people;
+	
+	printf("Name: %s\n", [빈칸1]);
+	printf("Age: %d\n", [빈칸2]);
+	
+	return 0;
+}
+
+1.  (*p).name , (*p).age
+2.  p -> name , p -> age
+3.  *p.name , *p.age
+4.  *p -> name , *p -> age
